@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Author: Karl Christian,
+    It's about Puri Home Booking website">
+    <title>Puri Home Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 style="font-size:50px;text-align:center;font-family:Courier New;">Puri Home Website</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#book-your-stay">Bookings</a></li>
+                <li><a href="index.html#about-us">About</a></li>
+                <li><a href="index.html#contact-us">Contact</a></li>
+                <li><a href="index.html#gallery">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 style="font-size:30px;" class="ani-element">Welcome to Puri Home</h2>
+        <p>Find and book the best accommodations with us!</p>
+        <div class="containerimg">
+            <picture class="responsive" alt="Home at Surabaya">
+                <!-- High-resolution screens / large devices -->
+                <source media="(min-width: 800px)" srcset="assets/large-house.webp">
+                
+                <!-- Medium-resolution screens / medium devices -->
+                <source media="(min-width: 400px)" srcset="assets/medium.png">
+
+                <!-- Low-resolution screens / small devices -->
+                <img src="assets/small.png">
+            </picture>
+        </div>
+
+        <h3 style="font-size:20px;" id="book-your-stay">Book Your Stay</h3>
+            <div class="container px-4 md:px-6">
+                <form action="#" method="get">
+                    <label for="checkin">* Check-in Date:</label>
+                    <input type="date" id="checkin" name="checkin" required><br>
+
+                    <label for="checkout">* Check-out Date:</label>
+                    <input type="date" id="checkout" name="checkout" required><br>
+
+                    <label for="guests">Number of Guests</label><br>
+                    <label for="adults">* Adults:</label> 
+                    <input type="number" id="adults" name="adults" min="1" max="6" placeholder="Number of Adults, min 1, max 6" required><br>
+                    <label for="kids">Kids:</label>
+                    <input type="number" id="kids" name="kids" min="0" max="6" placeholder="Number of Kids, min 0, max 6"><br>
+                    
+                    <label for="room-type">* Please select your room type:</label><br>
+                    <select name="room-type" id="room-type">
+                        <option value="Studio">Studio</option>
+                        <option value="Single Room">Single Room</option>
+                        <option value="Twin Room">Twin Room</option>
+                        <option value="Double Room">Double Room</option>
+                        <option value="Suite">Suite</option>
+                    </select>
+                    
+                    <br><br>
+
+                    <button type="submit">Check Availability</button>
+                </form>
+            </div>
+
+        <br><br><hr>
+
+        <section class="py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
+            <div class="container px-4 md:px-6">
+                <h3 style="font-size:20px;" id="about-us">About Us</h3>
+                <p>At Puri Home, we will serve and deliver the finest quality of living, bring the accomodations to the next level of experience.</p>
+            </div>
+        </section>
+
+        <br><br><hr>
+
+        <section class="py-12 md:py-24 lg:py-32">
+            <div class="container px-4 md:px-6">
+                <h3 style="font-size:20px;" id="contact-us">Contact Us</h3>
+                <form action="#" method="get">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name"><br>
+                    
+                    <label for="phone-number">Phone Number:</label>
+                    <input type="tel" id="phone-number" name="phone-number" placeholder="Your Phone Number"><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email"><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50" placeholder="Your Message"></textarea><br>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <br><br><hr>
+
+        <h2 style="font-size:30px;" class="ani-element">Gallery</h2>
+            <div class="grid-container">
+                <div class="item1"><img src="assets/house-1.jpg"></div>
+                <div class="item2"><img src="assets/house-2.jpg"></div>
+                <div class="item3"><img src="assets/house-3.avif"></div>
+                <div class="item4"><img src="assets/house-4.webp"></div>
+            </div>
+
+    </main>
+
+    <footer class="h-16 flex items-center justify-center border-t">
+        <p class="text-sm text-gray-500 dark:text-gray-400">&copy; 2024 Puri Home</p>
+    </footer>
+</body>
+</html>
