@@ -1,6 +1,7 @@
 # Module 2 - Karl Christian
 
 [Deployment](https://github.com/revou-fsse-5/module-2-karlchris/deployments/github-pages)
+
 Website URL: [https://revou-fsse-5.github.io/module-2-karlchris/](https://revou-fsse-5.github.io/module-2-karlchris/)
 
 Checkpoint 1:
