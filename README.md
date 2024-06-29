@@ -1,8 +1,8 @@
 # Module 2 - Karl Christian
 
-[Deployment](https://github.com/revou-fsse-5/module-2-karlchris/deployments/github-pages)
+[Deployment by Netlify](https://app.netlify.com/sites/purihome/deploys?filter=main)
 
-Website URL: [https://revou-fsse-5.github.io/module-2-karlchris/](https://revou-fsse-5.github.io/module-2-karlchris/)
+Website URL: [https://main--purihome.netlify.app/](https://main--purihome.netlify.app/)
 
 Checkpoint 1:
 
